@@ -1,0 +1,51 @@
+body{
+    background-color: whitesmoke;
+}
+h1.heading{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+}
+.division{
+    display: inline-block;
+    margin: 50px;
+    padding: auto;
+}
+.images{
+    width: 150px;
+    margin: 10px;
+    border-radius: 25px;
+    display: block;
+    border-color: brown;
+}
+p.para{
+    color: black;
+    font-size: large;
+    display: inline-block;
+}
+p.price{
+    font-size: xx-large;
+    color: green;
+}
+div.newpage{
+    text-align: center;
+
+}
+.pagepara{
+    font-size: x-large;
+    display: block;
+
+}
+.pageimages{
+    width: 200px;
+    display: inline-block;
+}
+button{
+    width: 100px;
+    height:50px;
+    padding: 15px;
+    color: red;
+}
+footer{
+    text-align: right;
+}
