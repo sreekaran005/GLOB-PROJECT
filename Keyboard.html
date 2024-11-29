@@ -11,12 +11,24 @@
         Shop.in
     </h1><br><br>
         <div class="newpage">
-        <img src="./keyboard.jpeg" class="pageimages">
+        <img src="keyboard.jpeg" class="pageimages" id="getImage"><button type="button" onclick="imagechange()"><img src="next.jpeg" width = 30px></button>
         <p class="pagepara">Gain instant access to your frequently used applications or functions with 12 programmable keys on your keyboard.</p>
         <p class="price">$300</p>
         <button type="button">Buy Now</button></div>
         <footer>
             <p>&copy; A GLOB Project by H7,716,717.</p>
         </footer>
+        <script>
+            function imagechange() 
+          {
+          var Image_Id = document.getElementById('getImage'); 
+          if (Image_Id.src.match("keyboard.jpeg"))
+             {
+            Image_Id.src = "keyboard2.jpeg"      } 
+           else {
+            Image_Id.src = "keyboard.jpeg";
+          }
+        }
+        </script>
     </body>
 </html>

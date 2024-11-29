@@ -39,13 +39,20 @@ div.newpage{
 .pageimages{
     width: 200px;
     display: inline-block;
+    border: 100px;
+    margin: 50px
 }
 button{
     width: 100px;
     height:50px;
     padding: 15px;
     color: red;
+    text-align: center;
 }
 footer{
     text-align: right;
 }
+ button[onclick]{
+    align-items: center;
+    justify-content: center;
+ }

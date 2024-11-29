@@ -11,12 +11,24 @@
         Shop.in
     </h1><br><br>
         <div class="newpage">
-        <img src="./phone.jpeg" class="pageimages">
+        <img src="phone.jpeg" class="pageimages" id ="getImage"><button type="button" onclick="imagechange()"><img src="next.jpeg" width = 30px></button>
         <p class="pagepara">The first iPhone designed for Apple Intelligence. Personal, private, powerful</p>
         <p class="price">$999</p>
         <button type="button">Buy Now</button>
         <footer>
             <p>&copy; A GLOB Project by H7,716,717.</p>
         </footer>
+        <script>
+            function imagechange() 
+          {
+          var Image_Id = document.getElementById('getImage'); 
+          if (Image_Id.src.match("phone.jpeg"))
+             {
+            Image_Id.src = "phone2.jpeg"      } 
+           else {
+            Image_Id.src = "phone.jpeg";
+          }
+        }
+        </script>
     </body>
 </html>
